@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import logo from '../../logo.svg';
 
 const Header = styled.div`
@@ -14,15 +14,18 @@ const Root = styled.div`
   text-align: center;
 `;
 
-const Logo = styled.img`
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-
-  @keyframes App-logo-spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+const reactLogoSpin = keyframes`
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+`;
 
+const Logo = styled.img`
+  animation: ${reactLogoSpin} infinite 8s linear;
+  height: 80px;
 `;
 
 const Title = styled.h1`
