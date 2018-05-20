@@ -28,10 +28,6 @@ const Sec = styled.line`
     stroke: #f55;
 `;
 
-export interface IClockProps {
-    test: string
-}
-
 export interface IClockState {
     SecX: number;
     SecY: number;
@@ -42,8 +38,8 @@ export interface IClockState {
     Seconds: number;
 }
 
-export default class Clock extends React.Component<IClockProps, IClockState> {
-    constructor(props: IClockProps) {
+export default class Clock extends React.Component<{}, IClockState> {
+    constructor(props: {}) {
         super(props);
         this.state = {Seconds: 0, SecX: 50, SecY: 15, MinX: 50, MinY: 15, HourX: 50, HourY: 30};
         setInterval(() => {this.tick();}, 1000);
