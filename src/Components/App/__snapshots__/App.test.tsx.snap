@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all elements correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.div>
+          <styled.img
+            alt="logo"
+            src={undefined}
+          />
+          <styled.h1>
+            Welcome to React
+          </styled.h1>
+        </styled.div>,
+        <styled.p>
+          To get started, edit 
+          <code>
+            src/App.tsx
+          </code>
+           and save to reload.
+        </styled.p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.img
+              alt="logo"
+              src={undefined}
+            />,
+            <styled.h1>
+              Welcome to React
+            </styled.h1>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "logo",
+              "src": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Welcome to React",
+            },
+            "ref": null,
+            "rendered": "Welcome to React",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "To get started, edit ",
+            <code>
+              src/App.tsx
+            </code>,
+            " and save to reload.",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "To get started, edit ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "src/App.tsx",
+            },
+            "ref": null,
+            "rendered": "src/App.tsx",
+            "type": "code",
+          },
+          " and save to reload.",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.div>
+            <styled.img
+              alt="logo"
+              src={undefined}
+            />
+            <styled.h1>
+              Welcome to React
+            </styled.h1>
+          </styled.div>,
+          <styled.p>
+            To get started, edit 
+            <code>
+              src/App.tsx
+            </code>
+             and save to reload.
+          </styled.p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.img
+                alt="logo"
+                src={undefined}
+              />,
+              <styled.h1>
+                Welcome to React
+              </styled.h1>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "logo",
+                "src": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Welcome to React",
+              },
+              "ref": null,
+              "rendered": "Welcome to React",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "To get started, edit ",
+              <code>
+                src/App.tsx
+              </code>,
+              " and save to reload.",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "To get started, edit ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "src/App.tsx",
+              },
+              "ref": null,
+              "rendered": "src/App.tsx",
+              "type": "code",
+            },
+            " and save to reload.",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
